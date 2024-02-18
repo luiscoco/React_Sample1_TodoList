@@ -282,3 +282,12 @@ npm start
 
 ### 5.2. Test the application
 
+![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/4828d663-8cb8-42a6-a4e1-f6617c908d61)
+
+![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/ec0b314d-293c-45d9-b0ae-6bcb71d7b771)
+
+![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/f13af9a3-0905-4438-962f-9b6a1b838203)
+
+![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/395c3f1c-2f88-4139-8db3-654b77352afa)
+
+![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/1f029a6e-6f64-4ee0-ba16-b4d740f06200)

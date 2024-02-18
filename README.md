@@ -221,9 +221,9 @@ export default App;
 
 **root.render(...)**: This is the key action that tells React to take control of the content inside the "root" container
 
-**<React.StrictMode>...**: This optional component helps identify potential problems in your React code during development
+**React.StrictMode...**: This optional component helps identify potential problems in your React code during development
 
-**<App />**: This is where your main App component, containing the rest of your Todo List structure, is placed and rendered into the page
+**App**: This is where your main App component, containing the rest of your Todo List structure, is placed and rendered into the page
 
 **Simplified Explanation**
 

@@ -197,7 +197,7 @@ export default App;
 
 ### 4.4. Index.js
 
-**Imports**
+#### 4.4.1. Imports
 
 **React**: Imports the core React library, needed to create components and work with React's JSX syntax
 
@@ -205,7 +205,7 @@ export default App;
 
 **App**: Imports your main App component, which represents the root of your Todo List application
 
-**Code**
+#### 4.4.2. Code
 
 **document.getElementById('root')**: This line finds a DOM element (usually a div) with the ID of "root" in your HTML file. This is your target container
 
@@ -217,7 +217,7 @@ export default App;
 
 **App**: This is where your main App component, containing the rest of your Todo List structure, is placed and rendered into the page
 
-**Simplified Explanation**
+#### 4.4.3. Simplified Explanation
 
 **Find an Anchor**: The code locates the "root" element in your HTML
 

@@ -20,12 +20,6 @@
 
 **deleteTodo**: Filters out the todo item with the matching id from the todos array
 
-**App.js**:
-
-The highest-level component
-
-Renders the "Todo List" title and includes the <TodoList /> component
-
 **Functionality**
 
 **Adding Items**:
@@ -174,6 +168,10 @@ export default TodoList;
 
 ### 3.3. App.js
 
+The highest-level component
+
+Renders the "Todo List" title and includes the <TodoList /> component
+
 ```javascript
 import TodoList from './TodoList';
 
@@ -191,6 +189,37 @@ export default App;
 
 ### 3.4. Index.js
 
+**Imports**
+
+**React**: Imports the core React library, needed to create components and work with React's JSX syntax
+
+**ReactDOM**: Specifically imports the createRoot function from the 'react-dom/client' module. This is needed for rendering React components into the real web page's DOM
+
+**App**: Imports your main App component, which represents the root of your Todo List application
+
+**Code**
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+**document.getElementById('root')**: This line finds a DOM element (usually a <div>) with the ID of "root" in your HTML file. This is your target container
+
+**ReactDOM.createRoot(...)**: This creates a "root" object from ReactDOM, which is the starting point for attaching your React application to the actual webpage
+
+root.render(<React.StrictMode><App /></React.StrictMode>);
+
+**root.render(...)**: This is the key action that tells React to take control of the content inside the "root" container
+
+**<React.StrictMode>...**: This optional component helps identify potential problems in your React code during development
+
+**<App />**: This is where your main App component, containing the rest of your Todo List structure, is placed and rendered into the page
+
+**Simplified Explanation**
+
+**Find an Anchor**: The code locates the "root" element in your HTML
+
+**Prepare React**: It sets up a connection point between your React code and the webpage
+
+**Display the App**: It tells React to render your Todo List application (the <App /> component and all its components) directly within the "root" element
 
 ```javascript
 import React from 'react';

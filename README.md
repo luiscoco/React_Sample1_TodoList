@@ -242,8 +242,35 @@ root.render(
 
 ### 5.1. Run the application
 
-We load the  libraries/dependences
+We load the  libraries/dependences running this command
 
+```
+npm install
+```
+
+or 
+
+```
+npm i
+```
+
+If you get errors try to run the command
+
+```
+npm audit fix --force
+```
+
+If you continue getting errors then run the command
+
+```
+npm cache clean --force
+```
+
+To run the application run the command
+
+```
+npm start
+```
 
 ### 5.2. Test the application
 

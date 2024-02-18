@@ -90,7 +90,23 @@ What functions to call when the task is marked complete/incomplete (onToggleComp
 **Rendering**: It displays the task text, a checkbox to mark it as done (with line-through styling if completed), and a "Delete" button
 
 ```javascript
+import React from 'react';
 
+function TodoItem({ todo, onToggleComplete, onDelete }) {
+  return (
+    <li style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
+      <input
+        type="checkbox"
+        checked={todo.completed}
+        onChange={() => onToggleComplete(todo.id)}
+      />
+      {todo.text}
+      <button onClick={() => onDelete(todo.id)}>Delete</button>
+    </li>
+  );
+}
+
+export default TodoItem; 
 ```
 
 ### 4.2. TodoList.js

@@ -1,4 +1,4 @@
-# Getting Started with Create React App: Sample 1 TodoList
+# Start learning React.js: Sample_1 TodoList application
 
 ## 1. Application main features
 

@@ -22,25 +22,17 @@
 
 ### 2.2. Functionality
 
-**Adding Items**:
-
-Type task text into the input field
+**Adding Items**: Type task text into the input field
 
 Clicking "Add" calls the addTodo function, adding a new item to the todos array
 
-**Listing Items**:
-
-The TodoList component's render method maps over the todos array
+**Listing Items**: The TodoList component's render method maps over the todos array
 
 For each item, it creates a <TodoItem /> component, passing the necessary data
 
-**Marking Complete**:
+**Marking Complete**: Clicking the checkbox next to a todo calls onToggleComplete, which in turn calls the toggleComplete function in TodoList to update the item's status
 
-Clicking the checkbox next to a todo calls onToggleComplete, which in turn calls the toggleComplete function in TodoList to update the item's status
-
-**Deleting Items**:
-
-Clicking "Delete" calls onDelete, triggering deleteTodo in TodoList, removing the item
+**Deleting Items**: Clicking "Delete" calls onDelete, triggering deleteTodo in TodoList, removing the item
 
 ### 2.3. How It Works Together
 

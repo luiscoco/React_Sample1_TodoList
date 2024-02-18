@@ -215,13 +215,9 @@ export default App;
 
 **Code**
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-**document.getElementById('root')**: This line finds a DOM element (usually a <div>) with the ID of "root" in your HTML file. This is your target container
+**document.getElementById('root')**: This line finds a DOM element (usually a div) with the ID of "root" in your HTML file. This is your target container
 
 **ReactDOM.createRoot(...)**: This creates a "root" object from ReactDOM, which is the starting point for attaching your React application to the actual webpage
-
-root.render(<React.StrictMode><App /></React.StrictMode>);
 
 **root.render(...)**: This is the key action that tells React to take control of the content inside the "root" container
 

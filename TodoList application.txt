@@ -1,0 +1,9 @@
+Todo List Application
+
+Components: Demonstrates the use of functional components for items and classes for lists
+
+State & Props: Shows how to manage and pass data within components
+
+Hooks: Uses useState and useEffect for state management and side effects
+
+Event Handling: Implements form submissions and button clicks to add or remove items

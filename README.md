@@ -12,7 +12,7 @@
 
 ## 2. Application explantaion
 
-**Functions**:
+### 2.1. Functions
 
 **addTodo**: Adds a new item to the todos array if there's text in the input
 
@@ -62,7 +62,7 @@ Individual TodoItem components visually represent each todo task
 
 **React Hooks**: The provided code uses the useState hook for state management
 
-## 2. Project Setup
+## 3. Project Setup
 
 **Create React App**: Assuming you haven't already, use this command in your terminal
 
@@ -75,9 +75,9 @@ cd todo-list-app
 
 ![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/3190d490-ee24-4f4a-a12b-335c102de20b)
 
-## 3. Application source code
+## 4. Application source code
 
-### 3.1. TodoItem.js
+### 4.1. TodoItem.js
 
 Defines a simple functional component representing a single todo task
 
@@ -93,7 +93,7 @@ What functions to call when the task is marked complete/incomplete (onToggleComp
 
 ```
 
-### 3.2. TodoList.js
+### 4.2. TodoList.js
 
 A class-based component that is the core of the todo list
 
@@ -166,7 +166,7 @@ class TodoList extends React.Component {
 export default TodoList;
 ```
 
-### 3.3. App.js
+### 4.3. App.js
 
 The highest-level component
 
@@ -187,7 +187,7 @@ function App() {
 export default App;
 ```
 
-### 3.4. Index.js
+### 4.4. Index.js
 
 **Imports**
 
@@ -234,12 +234,12 @@ root.render(
 );
 ```
 
-## 4. How to run and test the application
+## 5. How to run and test the application
 
-### 4.1. Run the application
+### 5.1. Run the application
 
 We load the  libraries/dependences
 
 
-### 4.2. Test the application
+### 5.2. Test the application
 

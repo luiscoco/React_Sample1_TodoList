@@ -20,7 +20,7 @@
 
 **deleteTodo**: Filters out the todo item with the matching id from the todos array
 
-**Functionality**
+### 2.2. Functionality
 
 **Adding Items**:
 
@@ -42,7 +42,7 @@ Clicking the checkbox next to a todo calls onToggleComplete, which in turn calls
 
 Clicking "Delete" calls onDelete, triggering deleteTodo in TodoList, removing the item
 
-**How It Works Together**
+### 2.3. How It Works Together
 
 The App component acts as the overall container
 
@@ -50,7 +50,7 @@ The TodoList manages the list's state and the logic for adding, updating, and re
 
 Individual TodoItem components visually represent each todo task
 
-**Key Concepts**
+### 2.4. Key Concepts
 
 **React Components**: The app is built as modular components (functional and class-based)
 

@@ -1,5 +1,13 @@
 # Start learning React.js: Sample_1 TodoList application
 
+## 0. Prerequisites
+
+Install Node.js
+
+![image](https://github.com/luiscoco/React_Sample1_TodoList/assets/32194879/3e9ec707-26c4-4c2e-a218-466c5fa727d0)
+
+
+
 ## 1. Application main features
 
 **Components**: Demonstrates the use of functional components for items and classes for lists
